@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    imagename = "sikordev/api"
+    imagename = "sikordev/flaskapi"
     registryCredential = 'dockerhub-id'
     dockerImage = ''
   }
